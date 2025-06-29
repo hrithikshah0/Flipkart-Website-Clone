@@ -1,0 +1,419 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(240, 237, 237);
+}
+.navbar
+{
+    background-color: white;
+    height: 70px;
+    width: 1536px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.navbarcontent{
+    height: 44px;
+    width: 1480px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navleft{
+    height: 44px;
+    width: 950px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logocontent{
+    display: flex;
+    gap: 5px;
+    font-size: 0.7rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+}
+.navright{
+    display: flex;
+    width: 531px;
+    height: 44px;
+    align-items: center;
+    gap: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    width: 160px;
+    height: 40px;
+    font-style: italic;
+}
+.search{
+    height: 40px;
+    width: 753px;
+    display: flex;
+}
+.search i{
+    height: 40px;
+    width: 44px;
+    background-color: rgb(228, 226, 226);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search input{
+    height: 40px;
+    width: 710px;
+    background-color: rgb(228, 226, 226);
+    border: 0px;
+    font-size: 1.1rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.login{
+    height: 42px;
+    width: 112px;
+    padding-top: 8px;
+    text-align: center;
+    gap: 30px;
+}
+.login select{
+    border: 0px;
+    font-size: 1.1rem;
+    font-weight: 200;
+    background-color: transparent;
+}
+
+.login:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 8px;
+}
+.cart{
+    height: 24px;
+    width: 105px;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.seller{
+    height: 24px;
+    width: 194px;
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+.threedot{
+    height: 42px;
+    width: 42px;
+    color: black;
+    padding-top: 8px;
+    font-size: 1.2rem;
+}
+.shopmenu{
+    padding: 16px;
+    padding-top: 8px;
+}
+.shopmenucontent
+{
+    width: 1504px;
+    height: 127px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.shopmenucontent a{
+    height: 90px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.menu_size{
+     height: 64px;
+    width: 64px;
+}
+.kilo{
+    background-image: url(Shop-menu-section/kilo.webp);
+    background-size: cover;
+}
+.mobiles{
+     background-image: url(Shop-menu-section/Mobiles.webp);
+    background-size: cover;
+}
+.fashion{
+     background-image: url(Shop-menu-section/Fashion.webp);
+    background-size: cover;
+}
+.electronics{
+     background-image: url(Shop-menu-section/Electronics.webp);
+    background-size: cover;
+}
+.home_furniture{
+     background-image: url(Shop-menu-section/Home&Furniture.webp);
+    background-size: cover;
+}
+.appliances{
+     background-image: url(Shop-menu-section/Appliances.webp);
+    background-size: cover;
+}
+.beauty_toy{
+     background-image: url(Shop-menu-section/BeautyToy&more.webp);
+    background-size: cover;
+}
+.two_wheelers{
+     background-image: url(Shop-menu-section/TwoWheelers.webp);
+    background-size: cover;
+}
+.herosection{
+    width: 1504px;
+    height: 250px;
+    margin-top: 16px;
+}
+.heroimage{
+    height: 250px;
+    background-image: url(Hero-section/hero.webp);
+    background-size: cover;
+}
+.shopcontent{
+    width: 1504px;
+    height: 318px;
+    display: flex;
+    justify-content: space-between;
+}
+.boecontent{
+    margin-top: 16px;
+    background-color: white; 
+    height: 350px;
+    width: 1251px;
+ 
+}
+.boecontent h2{
+    height: 30px;
+    width: 1251px;
+    padding: 16px;
+}
+.products{
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.product{
+    width: 216px;
+    height: 244px;
+    padding: 12px 24px 12px 24px;
+}
+.product p{
+    height: 20px;
+    width: 152px;
+    font-size: 0.8rem;
+     white-space: nowrap;
+     overflow: hidden;
+    text-overflow: ellipsis;
+}
+.product h4{
+    height: 20px;
+    width: 152px;
+    font-size: 1rem;
+}
+.product_size{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 152px;
+    width: 152px;
+    margin-bottom: 15px;
+}
+.product a{
+    height: 204px;
+    width: 152px;
+} 
+.sandisk{
+     background-image: url(Bestof-Electronics-Section/sandisk.webp);
+}
+.moniter{
+     background-image: url(Bestof-Electronics-Section/monitor.webp);
+}
+.shaver{
+     background-image: url(Bestof-Electronics-Section/Bestosfshaver.webp);
+}
+.smartwatch{
+     background-image: url(Bestof-Electronics-Section/Noisesmart.webp);
+}
+.mobilespeaker{
+     background-image: url(Bestof-Electronics-Section/Bestselling.webp);
+}
+.printer{
+     background-image: url(Bestof-Electronics-Section/printers.webp);
+}
+
+.bestbuy{
+    margin-top: 8px;
+    height: 365px;
+    width: 238px;
+    background-image: url(bestbuy.webp);
+    background-size: cover;
+}
+
+.bftcontent{
+    width: 1504px;
+    height: 318px;
+    margin-top: 65px;
+}
+.coffeepowder{
+    background-image: url(Beauty_food/coffeepowder.webp);
+}
+.remotecontrol{
+    background-image: url(Beauty_food/remotecontrol.webp);
+}
+.yogamat{
+    background-image: url(Beauty_food/yogamat.webp);
+}
+.topselling{
+    background-image: url(Beauty_food/topselling.webp);
+}
+.geared{
+    background-image: url(Beauty_food/gearedcycle.webp);
+}
+.bestaction{
+    background-image: url(Beauty_food/bestactiontoy.webp);
+}
+.softtoy{
+    background-image: url(Beauty_food/softtoy.webp);
+}
+.shcontent{
+    width: 1504px;
+    height: 318px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+.nongeared{
+    background-image: url(Sports_health/nongeared.webp);
+}
+.dryfruit{
+    background-image: url(Sports_health/Dryfruits.webp);
+}
+.trademill{
+    background-image: url(Sports_health/trademill.webp);
+}
+.puzzlecube{
+    background-image: url(Sports_health/puzzles&cubes.webp);
+}
+.electriccycle{
+    background-image: url(Sports_health/electriccycle.webp);
+}
+.gymessential{
+    background-image: url(Sports_health/Gymessentials.webp);
+}
+.foodspread{
+    background-image: url(Sports_health/Foodspreads.webp);
+}
+hr{
+    width: 1536px;
+}
+
+.foot1{
+    width: 1536px;
+    height: 700px;
+    padding: 25px;
+    background-color: #f5f5f5;
+    color: #565656;
+}
+.foot1 h2{
+    font-size: 1.1rem;
+    margin: 14px 0px 0px;
+    padding: 14px 0px;
+}
+.brand_directory{
+    margin: 4px 0px;
+    line-height: 1.5;
+}
+.brand_directory p{
+    font-size: 0.8rem;
+}
+.brand_directory span{
+    font-size: 0.9rem;
+}
+
+.foot2{
+    width: 1536px;
+    height: 1600px;
+    padding: 30px;
+    background-color: #f5f5f5;
+    color: #878787;
+    font-size: 0.8rem;
+}
+.foot2 h2{
+     font-size: 1rem;
+     margin-bottom: 10px;
+     font-weight: 600;
+}
+.foot3{
+    height: 400px;
+    width: 1536px;
+    background-color: rgb(25, 24, 24);
+    color: white;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.innerfoot1{
+    height: 286px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+.innerfoot1-content{
+    width: 1416px;
+    height: 206px;
+    padding: 40px 60px 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.innertopic{
+    color: #878787;
+    margin: 0px 0px 12px;
+}
+.innerfoot1-content a{
+    color: white;
+    display: flex;
+    font-weight: bold;
+}
+.innerfoot1-content a:hover{
+    text-decoration: underline;
+}
+.mail-us{
+    border-left: 0.8px solid #878787;
+    padding-left: 32px;
+}
+
+.social-icon {
+    height: 28px;
+    width: 255px;
+    display: flex;
+    font-size: 1.5rem;
+    gap: 22px;
+}
+.innerfoot2{
+    padding: 25px 0px;
+    margin-top: 40px;  
+    border-top: 0.8px solid #878787; 
+}
+.innerfoot2 a{
+    color: #ffffff;
+}
+.innerfoot2-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
